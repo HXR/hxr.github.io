@@ -20,12 +20,12 @@
 
 ## Creating a new site
 ```console
-sudo -E docker-compose run site jekyll new site
+sudo -E docker-compose run site jekyll new site --blank
 ```
 
 ## Developing
 ```console
 sudo -E docker-compose run site bundle update
-sudo -E docker-compose run site jekyll b
+sudo -E docker-compose run site jekyll build
 sudo -E docker-compose run --service-ports site jekyll serve --source site
 ```
