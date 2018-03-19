@@ -1,0 +1,29 @@
+title: Human x Robot
+description: >
+  Human x Robot
+  ...
+baseurl: ""
+url: "http://localhost"
+github_username: hxr
+twitter_username: human_x_robot
+
+highlighter: rogue
+markdown: kramdown
+kramdown:
+  input: GFM
+  html_to_native: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+incremental: true
+permalink: pretty
+safe: false
+lsi: false
+exclude: [README.md]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
