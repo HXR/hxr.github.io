@@ -1,10 +1,9 @@
 _site/
 vendor
-**/.DS_Store
-**/desktop.ini
-.bundle/**
+.DS_Store
+desktop.ini
+.bundle/
 .jekyll-metadata
-_site/**
-.sass-cache/**
+.sass-cache/
 CNAME
 Gemfile.lock
