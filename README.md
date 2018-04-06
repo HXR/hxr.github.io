@@ -2,7 +2,7 @@
 
 ```console
 cd docs
-sudo -E docker run --rm --volume=$PWD:/srv/jekyll -p 35729:35729 -p 4000:4000 -it jekyll/builder:latest jekyll build
+sudo -E docker run --rm --volume=$PWD:/srv/jekyll -p 35729:35729 -p 4000:4000 -it jekyll/builder:latest jekyll serve
 ```
 
 ## Layout

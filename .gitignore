@@ -1,8 +1,8 @@
 _site/
-vendor
 .DS_Store
 desktop.ini
 .bundle/
+bundle/
 .jekyll-metadata
 .sass-cache/
 CNAME
